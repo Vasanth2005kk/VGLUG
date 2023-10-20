@@ -7,3 +7,4 @@ sample output:
 string=input("Enter the string:").split(" ")
 for i in string:
     print(i[::-1],end=" ")
+print("helo")
