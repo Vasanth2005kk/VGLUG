@@ -6,7 +6,7 @@ sample input: 20,46,75,10
 sample output: fail,pass,pass,fail
 '''
 
-mark=input("enter the mark:").split(",")
+mark=input("enter the mark:").split(" ")
 list_1=mark
 #print(list_1)
 pass_or_fail=[]
