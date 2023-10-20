@@ -1,0 +1,40 @@
+Home » Python » File Handling » Python Count Number of Files in a Directory
+Python Count Number of Files in a Directory
+Updated on: January 19, 2022 | 3 Comments
+
+In this article, we will see how to count the number of files present in a directory in Python.
+
+If the directory contains many files and you want to count the number of files present in a directory before performing any operations.
+For example, you want to move all files from one directory to another.
+Still, before moving them,
+ we can count how many files are present in a directory to understand its impact and the time required to perform that operation.
+
+There are multiple ways to count files of a directory. We will use the following four methods.
+
+Table of contents
+How to count Files in a directory
+Example: Count Number Files in a directory
+Count all files in the directory and its subdirectories
+scandir() to count all files in the directory
+fnmatch module to count all files in the directory
+
+How to count Files in a directory
+Getting a count of files of a directory is easy as pie! Use the listdir() and isfile() functions of an
+os module to count the number of files of a directory. Here are the steps.
+
+Import os module
+The os module provides many functions for interacting with the operating system.
+Using the os module, we can perform many file-related operations such as moving, copying, renaming, and deleting files.
+
+create a counter variable
+Set counter to zero. This counter variable contains how many files are present in a directory.
+
+Use os.listdir() function
+The os.listdir('path') function returns a list of files and directories present in the given directory.
+
+Iterate the result
+Use for loop to Iterate the entries returned by the listdir() function. Using for loop we will iterate each entry returned by the listdir() function.
+
+Use isfile() function and increment counter by 1
+In each loop iteration, use the os.path.isfile('path') function to check whether the current entry is a file or directory.
+If it is a file, increment the counter by 1.
