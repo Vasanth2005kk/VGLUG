@@ -4,6 +4,6 @@ sample input:
 sample output:
              olleh i ma retupmoc'''
 
-string=input("Enter the string:").split(" ")
-for i in string:
+str=input("Enter the string:").split(" ")
+for i in str:
     print(i[::-1],end=" ")
