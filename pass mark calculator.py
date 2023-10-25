@@ -12,7 +12,7 @@ list_1=mark
 pass_or_fail=[]
 for i in list_1:
     intger=int(i)
-    if intger>=30:
+    if intger>=40:
         pass_or_fail.append("pass")
     else:
         pass_or_fail.append("fail")
