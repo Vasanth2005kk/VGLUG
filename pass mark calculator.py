@@ -3,8 +3,8 @@ print the array containg pass/fail respective to the input marks.
 consider 35 and above are pass marks
 
 sample input: 20,46,75,10
-sample output: fail,pass,pass,fail
-'''
+sample output: fail,pass,pass,fail'''
+
 
 mark=input("enter the mark:").split(" ")
 list_1=mark
