@@ -6,8 +6,8 @@ sample input: 20,46,75,10
 sample output: fail,pass,pass,fail
 '''
 
-mark=input("enter the mark:").split(" ")
-list_1=mark
+studentmark=input("enter the mark:").split(" ")
+list_1=studentmark
 #print(list_1)
 pass_or_fail=[]
 for i in list_1:
