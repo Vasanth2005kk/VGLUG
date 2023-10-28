@@ -19,7 +19,7 @@ try:
             list_4.append(i)
     # print(list_3)
     # print(list_4)
-    print("<-------------------------------------->")
+    print("****************************************************")
     for i in list_4:
         if i:
             print("answer is: ===>", i)
