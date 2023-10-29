@@ -7,4 +7,5 @@ class student:
         print("student roll_number:",self.roll_namber)
 std_1=student("vasanth",261444122)
 std_1=student("shandiya",261444123)
+std_1=student("celine",261444124)
 std_1.student_details()
