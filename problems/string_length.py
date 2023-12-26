@@ -6,13 +6,14 @@ special_character=0
 for i in word:
     if i.isalpha():
         string+=1
-    if i.isdigit():
+    elif i.isdigit():
         number+=1
-    if i in s.punctuation:
+    elif i in s.punctuation:
         special_character+=1
 print("letters:",string)
 print("Numbers:",number)
 print("Special_characters:",special_character)
+
 '''string="good morning ! 1234"
 list_1=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 number_list=['1','2','3','4','5','6','7','8','9','0']
