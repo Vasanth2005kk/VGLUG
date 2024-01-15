@@ -1,20 +1,20 @@
 '''
 write the pattern for find the email id format
 '''
+try:
+    import re
 
-import re
+    email=input("Enter the mail : ")
 
-email="vasanth#2005kk@gmail.com"
+    index_find=re.search("@",email).start()
+    output=email[:index_find]
 
-
-index_find=re.search("@",email).start()
-
-output=email[:index_find]
-
-if re.findall("",output):
-    print("yes")
-
-#if re.findall("@gmail.com$",email):
-#    print("its right")
-    
-    
+    if re.findall("@gmail.com$",email):
+        if not re.findall("\W",output):
+            print("successfully !")
+        else:
+            print("not this email !")
+    else:
+        print("not this email !")
+except Exception as e:
+    print("Error:",e)
