@@ -10,6 +10,3 @@ for number,name in call.items():
         print(f"'{name}' number is : {number}")
     elif call_name_or_number==number:
         print(f"the number:{number} is ==> {name}")
-    elif call_name_or_number  not in name or call_name_or_number not in number:
-            print("not this moblie number !")
-            break
