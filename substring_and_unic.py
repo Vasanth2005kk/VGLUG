@@ -10,7 +10,7 @@ try:
         if len(set(list(k)))==len(list(k)):
             print(k)
         else:
-            print("NOt unic elements !")
+            print("NOT unic elements !")
 
 except Exception as e:
     print("ERROR:",e)
