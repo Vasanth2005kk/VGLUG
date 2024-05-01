@@ -1,4 +1,4 @@
-'''Revers words in string -reverse all the words in givan string without changing words position i string
+'''Revers words in string -reverse all the words in givan string without changing words pepole i string
 sample input:
              Hello i am computer
 sample output:

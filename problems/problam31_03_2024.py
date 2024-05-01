@@ -19,7 +19,7 @@ try:
 
     number=[1,2,3,4,5,6]
     methods=string_split('rltdrrtrs22s1')
-    #print(methods)
+    print(methods)
 
     r_count=0
     for i in methods:
