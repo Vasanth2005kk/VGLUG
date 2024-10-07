@@ -1,7 +1,7 @@
-#[3,6,5,4,1,2]
+prabha=[3,6,5,4,1,2]
 
-#[a,b,c,d,e,f]
-#[1,2,3,4,5,6]
+prabha=[a,b,c,d,e,f]
+prabha=[1,2,3,4,5,6]
 '''
 
 ['e', 'f', 'a', 'd', 'c', 'b']
@@ -32,4 +32,6 @@ while True:
     if out==pepole:
         print('answer = ',total)
         break       
-
+        
+for i in range(1,10000000):
+    print(i)
