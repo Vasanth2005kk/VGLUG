@@ -4,7 +4,7 @@ for i in range(1,number+1):
 
 # or 
 
-print("<--------------------------->")    
+print("<-----------Hello---------------->")    
 
 for i in range(1,number+1):
     for j in range(i):
