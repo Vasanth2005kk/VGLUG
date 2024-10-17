@@ -1,12 +1,17 @@
-number=int(input())
-for i in range(1,number+1):
-    print(i*"*")
+# Prompt the user to enter a number
+number = int(input())
 
-# or 
+# First method: Using string multiplication to print stars
+for i in range(1, number + 1):
+    # Print i asterisks for each value of i from 1 to number
+    print(i * "*")
 
-print("<--------------------------->")    
+# Print a separator line for clarity
+print("<--------------------------->")
 
-for i in range(1,number+1):
+# Second method: Using nested loops to print stars
+for i in range(1, number + 1):
+    # Inner loop to print one asterisk for each value of j up to i
     for j in range(i):
-        print("*",end="")
-    print()
+        print("*", end="")  # Print asterisk without a newline
+    print()  # Print a newline after completing the inner loop for each i
