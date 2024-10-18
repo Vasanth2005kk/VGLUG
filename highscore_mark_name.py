@@ -7,15 +7,25 @@ enter names & markes of each student :parthi 86
 output:
        parthi is highest mark.'''
 
-n=int(input("enter the student:"))
-list_1=[]
+# Prompt the user for the number of students
+n = int(input("Enter the number of students:"))
+
+# Initialize an empty list to store names and marks
+list_1 = []
+
+# Collect names and marks for each student
 for i in range(n):
-    name_mark=input("enter names & markes of each student :").split()
-    list_1.append(name_mark)
-mark_list=[]
-for j,k in list_1:
+    name_mark = input("Enter names & marks of each student: ").split()
+    list_1.append(name_mark)  # Add the list of name and mark to list_1
+
+# Initialize an empty list to store marks
+mark_list = []
+
+# Extract marks from list_1 and convert them to integers
+for j, k in list_1:
     mark_list.append(int(k))
 
-for j,k in list_1:
-    if int(k)==max(mark_list):
-        print(f"{j} is highest mark.")
+# Find and print the student with the highest mark
+for j, k in list_1:
+    if int(k) == max(mark_list):  # Check if the current mark is the maximum
+        print(f"{j} has the highest mark.")
