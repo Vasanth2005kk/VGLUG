@@ -1,5 +1,5 @@
 import string as s
-word="good morning ! 1234"
+word="good morning guys ! 1234"
 string=0
 number=0
 special_character=0
