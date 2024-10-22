@@ -1,4 +1,4 @@
-try:
+try:# TRY BLOCK
     # Prompt the user for a number and convert it to an integer
     num = int(input("Enter the number:"))
     
@@ -42,9 +42,9 @@ try:
         # Print the answer if it is not empty
         if i:
             print("answer is: ===>", i)
-except ValueError as error:
+except ValueError as error: # EXCEPTION BLOCK OR ERROR BLOCK
     # Handle non-integer input errors
     print("ERROR ==>", error)
-finally:
+finally:# FINALLY BLOCK
     # Print a message indicating that the process is done
     print("Done")
