@@ -10,6 +10,7 @@ for i in word:
         number+=1
     elif i in s.punctuation:
         special_character+=1
+print("Word full length:",len(word))
 print("letters:",string)
 print("Numbers:",number)
 print("Special_characters:",special_character)
