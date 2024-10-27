@@ -41,7 +41,7 @@ def append_file(filename, text):
 def rename_file(filename, new_filename):
     try:
         os.rename(filename, new_filename)
-        print("File " + filename + " renamed to " + new_filename + " successfully.")
+        print("File " + filename + " renamed to " + newfilename + " successfully.")
     except IOError:
         print("Error: could not rename file " + filename)
 
