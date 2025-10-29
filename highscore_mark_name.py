@@ -21,7 +21,7 @@ for i in range(n):
 # Initialize an empty list to store marks
 mark_list = []
 
-# Extract marks from list_1 and convert them to integers
+# Extract marks from list_1 and convert them into integers
 for j, k in list_1:
     mark_list.append(int(k))
 
