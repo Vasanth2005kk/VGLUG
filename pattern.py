@@ -6,12 +6,12 @@ for i in range(1, number + 1):
     # Print i asterisks for each value of i from 1 to number
     print(i * "*")
 
-# Print a separator line for clarity
+# the below thing are used for pattern !!
 print("<--------------------------->")
 
-# Second method: Using nested loops to print stars
 for i in range(1, number + 1):
     # Inner loop to print one asterisk for each value of j up to i
     for j in range(i):
         print("*", end="")  # Print asterisk without a newline
     print()  # Print a newline after completing the inner loop for each i
+
