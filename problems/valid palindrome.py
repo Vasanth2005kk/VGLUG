@@ -14,4 +14,4 @@ try:
 except Exception as e:
     print(e)
 finally:
-    print("<------------------>\nDone")
+    print("<-------------------->\nDone")
